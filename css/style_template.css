@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+    
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #efefef;
+    border: 3px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 10px;
+}
+
+.navFlex{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+nav p, nav a {
+    font-style: "Geist", serif;
+    font-size: 16px;
+}
+
+nav a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #efefef;
+    border: 3px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 4px;
+
+}
+
+footer a {
+    font-family: "Geist", serif;
+    color: #0000EE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: lightgray;
+}
+
+/* Splash Section */
+.splash {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+
+.splash h1 {
+    font-family: "Roboto", serif;
+    color: #000000;
+    font-size: 32px;
+}
+
+.splash img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000000;
+
+}
+
+.splash p {
+    font-family: "Geist", serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+/* Horizontal Rules */
+hr {
+    border-style : solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+/* Sections */
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Afacad Flux", serif;
+    color: #000000;
+    font-size: 27px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: "Geist", serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+/* link styles */
+section a {
+    font-family: "Geist", serif;
+    color: #0000EE;
+    text-decoration: none;
+}
+section a:hover {
+    background-color: lightgray;
+}
+
+/* List Styles */
+ul {
+   font-family: "Geist", serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+dl {
+    font-family: "Geist", serif;
+    color: #000000;
+}
+dl dt{
+    font-style: bold;
+    font-size: 16px;
+}
+dl dd{
+    font-size: 15px;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+
+}
+
+.card h3 {
+    font-family: "Afacad Flux", serif;
+    color: #000000;
+    font-size: 25px;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+form { 
+    font-family: "Afacad Flux", serif;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+}
+
+form input, form textarea {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #000000;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+form input:focus, form textarea:focus {
+    text-align: center;
+}
+
+form button {
+    background-color: #000000;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    margin-left: 625px;
+    margin-right: 625px;
+}
+
+form button:hover {
+    background-color: lightgray;
+}
