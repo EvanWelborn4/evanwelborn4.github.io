@@ -145,7 +145,7 @@ dl dd{
 /* Project Section */
 .three-col {
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
