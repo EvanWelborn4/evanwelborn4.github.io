@@ -158,7 +158,7 @@ dl dd{
 }
 
 .card img {
-    width: 100%;
+    width: 75%;
     height: auto;
     padding-top: 10px;
 
@@ -174,8 +174,11 @@ dl dd{
 .one-col {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto-fit 1fr;
     align-items: center;
+    margin: 0 auto;
+    place-items: center;
+
 }
 
 form { 
@@ -187,12 +190,13 @@ form {
 }
 
 form input, form textarea {
+
     border-style: solid;
     border-radius: 25px;
     border-width: 2px;
     border-color: #000000;
-    margin-left: 400px;
-    margin-right: 400px;
+    width: 35%;
+    
 }
 
 form input:focus, form textarea:focus {
@@ -204,9 +208,9 @@ form button {
     color: #ffffff;
     border-style: solid;
     border-radius: 25px;
+    width: 75px;
     border-width: 2px;
-    margin-left: 625px;
-    margin-right: 625px;
+    
 }
 
 form button:hover {
