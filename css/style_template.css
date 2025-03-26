@@ -1,12 +1,12 @@
 /* General Styles */
-body {
-    
+html, body {
+    background: #B1F0F7;
     margin: 0;
 }
 
 /* Nav Styles */
 nav {
-    background-color: #efefef;
+    background-color: #08C2FF;
     border: 3px;
     border-color: #000000;
     border-style: solid;
@@ -23,12 +23,14 @@ nav {
 
 nav p, nav a {
     font-style: "Geist", serif;
-    font-size: 16px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
 }
 
 nav a {
-    color: #0000EE;
     text-decoration: none;
+    pointer-events: cursor;
 }
 
 nav a:hover {
@@ -37,7 +39,7 @@ nav a:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #efefef;
+    background-color: #08C2FF;
     border: 3px;
     border-color: #000000;
     border-style: solid;
@@ -46,13 +48,33 @@ footer {
     justify-content: center;
     gap: 4px;
     margin-top: 4px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+
+}
+
+.contactFooter {
+    background-color: #08C2FF;
+    border: 3px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 45px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
 
 }
 
 footer a {
     font-family: "Geist", serif;
-    color: #0000EE;
+    color: white;
     text-decoration: none;
+    pointer-events: cursor;
 }
 
 footer a:hover {
@@ -148,15 +170,21 @@ dl dd{
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; 
 
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
     padding: 2px 16px;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    scale: 1.05;
 }
 
 .card img {
@@ -212,6 +240,7 @@ form button {
     border-radius: 25px;
     width: 75px;
     border-width: 2px;
+    cursor: pointer;
     
 }
 
